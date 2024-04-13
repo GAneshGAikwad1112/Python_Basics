@@ -7,37 +7,37 @@ Dictionary in Python:-
     
     '''
 
-# info = { 
-#     "key": "value",
-#     "name":"Ganesh",
-#     "language":"Python",
-#     "age" : 23,
-#     "is_adults" : True,
-#     "subjects" : ["python","c","jave"],
-#     "topics" : ("dict", "set"),
-#     12 : 32
-# }
+info = { 
+    "key": "value",
+    "name":"Ganesh",
+    "language":"Python",
+    "age" : 23,
+    "is_adults" : True,
+    "subjects" : ["python","c","jave"],
+    "topics" : ("dict", "set"),
+    12 : 32
+}
 
-# null_dict = {} # to create a empty dictionary
+null_dict = {} # to create a empty dictionary
 
-# print(info["name"])
-# info["name"] = "Akash"
-# print(info)
+print(info["name"])
+info["name"] = "Akash"
+print(info)
 
 
-# '''
+'''
 #     Nested Dictionaries:- 
     
 
 #         '''
 
-# info = { 
-#     "key": "value",
-#     "name":"Ganesh",
-#     "language":{"1st lan" : "python",
-#                 "2nd lan " : "java"},
-#     "age" : 23,
-# }
+info = { 
+    "key": "value",
+    "name":"Ganesh",
+    "language":{"1st lan" : "python",
+                "2nd lan " : "java"},
+    "age" : 23,
+}
 
 '''Dictionary Methods:- 
 

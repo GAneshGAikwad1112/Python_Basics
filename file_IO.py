@@ -30,3 +30,16 @@ f.close()
 
 '''
 
+'''
+Reading a file:
+    
+    data = f.read() #reads entire file
+    
+    data = f.readline() #reads one line at a time
+    
+    '''
+
+f = open("domo.txt","r")
+
+line = f.readline()
+print(line)

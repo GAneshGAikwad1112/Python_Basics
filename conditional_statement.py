@@ -17,36 +17,36 @@ else:
 
 # Example
 
-# light = input("light: ")
+light = input("light: ")
 
-# if (light == "red"):
-#     print("stop")
+if (light == "red"):
+    print("stop")
 
-# elif(light == "yellow"):
-#     print("look")
+elif(light == "yellow"):
+    print("look")
 
-# elif(light == "green"):
-#     print("go")
+elif(light == "green"):
+    print("go")
 
-# else:
-#     print("light is broken")
+else:
+    print("light is broken")
 
 
 # Example
 
-# marks =  int(input("marks: "))
+marks =  int(input("marks: "))
 
-# if (marks >= 90):
-#     print("A")
+if (marks >= 90):
+    print("A")
 
-# elif (marks >= 80):
-#     print("B")
+elif (marks >= 80):
+    print("B")
 
-# elif (marks >= 70):
-#     print("C")
+elif (marks >= 70):
+    print("C")
 
-# else:
-#     print("D")
+else:
+    print("D")
 
 
 # Example
@@ -59,21 +59,21 @@ A = 2 & G = F
 
 """
 
-# A = int(input("A: "))
+A = int(input("A: "))
 
-# G = input("M/F: ")
+G = input("M/F: ")
 
-# if((A ==1 or A == 2) and G == "M"):
-#     print("fee is 100")
+if((A ==1 or A == 2) and G == "M"):
+    print("fee is 100")
 
-# elif(A == 3 or A == 4 or G == "F"):
-#     print("fee is 200")
+elif(A == 3 or A == 4 or G == "F"):
+    print("fee is 200")
 
-# elif(A == 5 and G == "M"):
-#     print("fee is 300")
+elif(A == 5 and G == "M"):
+    print("fee is 300")
 
-# else:
-#     print("No fee")
+else:
+    print("No fee")
     
     
 '''
