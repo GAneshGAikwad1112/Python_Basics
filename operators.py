@@ -10,14 +10,14 @@ Types of operators
 
 
 # Example
-# a = 5
-# b = 4
+a = 5
+b = 4
 
 
-# print(a + b)
-# print(a - b)
-# print(a * b)
-# print(a / b)
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)
 
 
 '''
@@ -25,24 +25,24 @@ Types of operators
 Relational / Comparison operators ( ==, !=, >, < , >=, <= )'''
 
 # Example
-# a = 50 
-# b = 30
+a = 50 
+b = 30
 
-# print(a == b)
-# print(a != b)
-# print(a > b)
-# print(a < b)
-# print(a >= b)
-# print(a <= b)
+print(a == b)
+print(a != b)
+print(a > b)
+print(a < b)
+print(a >= b)
+print(a <= b)
 
 '''
 
 Assignment Operator( = , += , != , > , < , >= , <= )'''
 
-# a = 5
-# a+= 10
+a = 5
+a+= 10
 
-# print(a)
+print(a)
 
 
 '''

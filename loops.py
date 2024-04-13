@@ -10,42 +10,42 @@ Loops in python:-
 
 #example #print the number from 1 to 5
 
-# i = 1 
-# while i <= 5:
-#     print("hello")
-#     i += 1
+i = 1 
+while i <= 5:
+    print("hello")
+    i += 1
 
 
 #example2:
 
-# n = int(input("Enter a num: "))
-# i = 1
+n = int(input("Enter a num: "))
+i = 1
 
-# while i <= 10:
-#     print(n * i)
-#     i += 1
-
-#example:
-
-# indx = 0
-# nums = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
-
-# while indx < len(nums):
-#     print(nums[indx])
-#     indx +=1 
+while i <= 10:
+    print(n * i)
+    i += 1
 
 #example:
 
-# search = (1, 4, 9, 16, 25, 36, 49, 64, 81, 100)
-# x = int(input("Enter a num: "))
-# i = 0 #initialization
-# while i < len(search):
-#     if(search[i] == x):
-#         print("number found")
-#         break
-#     else:
-#         print(f"number is not found on {search[i]}")
-#     i += 1
+indx = 0
+nums = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+
+while indx < len(nums):
+    print(nums[indx])
+    indx +=1 
+
+#example:
+
+search = (1, 4, 9, 16, 25, 36, 49, 64, 81, 100)
+x = int(input("Enter a num: "))
+i = 0 #initialization
+while i < len(search):
+    if(search[i] == x):
+        print("number found")
+        break
+    else:
+        print(f"number is not found on {search[i]}")
+    i += 1
 
 
 
@@ -62,13 +62,13 @@ Loops in python:-
 
 #example: 
 
-# i = 0
-# while i <= 5:
-#     if(i == 3):
-#         i += 1
-#         continue
-#     print(i)
-#     i += 1
+i = 0
+while i <= 5:
+    if(i == 3):
+        i += 1
+        continue
+    print(i)
+    i += 1
 
 
 
@@ -78,19 +78,19 @@ Loops in python:-
         loops are used for sequential traversal. for traversing list, string, tuples. etc.
     '''
 
-# num =(1, 2, 3, 4)
+num =(1, 2, 3, 4)
 
-# for val in num:
-#     print(val)
+for val in num:
+    print(val)
 
 
 '''
     Range() function:
         Range function returns a sequence of numbers, starting form 0 by default, and increments by 1(by_default), and stops before a specified numbers. '''
 
-# seq = range(5)
-# for i in seq:
-#     print(i)
+seq = range(5)
+for i in seq:
+    print(i)
 
 
 '''
@@ -101,10 +101,10 @@ Loops in python:-
 
 #example
 
-# for i in range:
-#     pass
+for i in range:
+    pass
 
-# print(" Hello Everyone! ")
+print(" Hello Everyone! ")
 
 
 #example:

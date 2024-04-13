@@ -6,9 +6,9 @@ Set in python
     
     ''' 
 
-# set = { 1, 2} 
-# print(type(set), set)
-# print(len(set)) # total items in the set
+set = { 1, 2} 
+print(type(set), set)
+print(len(set)) # total items in the set
 
 
 hello =set() #empty set

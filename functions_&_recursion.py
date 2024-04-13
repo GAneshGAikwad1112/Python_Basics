@@ -19,7 +19,7 @@ def sum(a, b):  #parameters
     print(s) 
     return s   #used print(sum) / return sum
 
-# sum( 5, 10)#function call; arguments
+sum( 5, 10)#function call; arguments
 
 
 
