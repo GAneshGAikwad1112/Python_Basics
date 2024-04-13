@@ -15,3 +15,6 @@ age = int(input("age: "))
 price = float(input("prince: "))
 
 print("My name is", name,",","I am", age,"Years old", price)
+
+
+

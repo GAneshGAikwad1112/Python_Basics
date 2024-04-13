@@ -16,4 +16,15 @@ print("my name is:" ,name,"my age is:",age,"The price is: ",price)
 
 print(age2)
 
-print(type(age2))
+print(type(age2))   #type of any variables called as data type of the perticular variables
+
+
+'''
+Data Types:
+    Integers  : any number is integer which is positive number, Negative number and zero
+    string    : any statement in " ", ' ' or '''  ''' is the string 
+    float     : any decimal value is floating data type
+    boolean   : True or flase value is boolean values
+    none      :  No any valid value
+
+'''

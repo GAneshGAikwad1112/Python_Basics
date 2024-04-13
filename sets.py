@@ -59,3 +59,9 @@ a = int(input("enter a vlaue: "))
 marks.update({"sci":a})
 
 print(marks)
+
+# practic que4
+
+set = {("int", 9),("float", 9.0)}
+
+print(set)

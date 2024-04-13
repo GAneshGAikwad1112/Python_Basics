@@ -69,6 +69,8 @@ print(str[-3:-1])
     
     '''
 
+#example
+
 str = "i am learing python"
 
 print(str.endswith("n")) #returns true if string ends with substr

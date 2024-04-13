@@ -50,8 +50,8 @@ Logical Operators (not, and, or)
 
 '''
 
-print(not False)
+print(not False)  #True
 
-print(True and True)
+print(True and True) #True
 
-print(False or False)
+print(False or False) #False

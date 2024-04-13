@@ -132,11 +132,44 @@ Recursion:-
         print(n)
         show(n-1)
     '''
-#example
+#example #recursive function
 def show(n):
-    if (n==0):
+    if (n==0):   #base case
         return
     print(n)
-    show(n-1)        
+    show(n-1)    #calling itself show function    
 
 show(5)
+
+
+#example # returns n!
+
+def fact(n):
+    if (n == 0 or n == 1):
+        return 1
+    return n * fact(n-1)
+    
+print(fact(5))
+
+
+#example #using recursive function write a sum of first n natural numbers
+
+def cal_sum(n):
+    if (n == 0):
+        return 0
+    return cal_sum(n-1) + n
+total = cal_sum(5)
+print(total)
+
+
+#example # write a reursive function to print all elements in a list
+            #hint: use list and index as paramenters
+
+def print_list(list, index = 0):
+    if (index == len(list)):
+        return
+    print(list[index])
+    print_list(list, index + 1 )
+
+fruits = [ "mango","lichi","banana","apple"]
+print_list(fruits)

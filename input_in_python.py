@@ -25,4 +25,4 @@ age = input("Enter a age: ")
 marks = input("Enter a marks: ")
 
 print(type(name), type(age), type(marks),)
-print(name,age,marks)
+print(name,age,marks) 
